@@ -1,0 +1,9 @@
+tests/unit/coverage/**
+tests/unit/*.js
+tests/e2e/*.js
+
+**/*.svg
+.env.dev
+.env.prod
+.env.test
+.env.uatdevTools

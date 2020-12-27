@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // 基路径，默认是当前目录
+    "rootDirs": ["/src", "/test", "/mock"], // 为一组源目录创建一个"虚拟"的跟目录
+    "outDir": "./dist", // 指定输出目录
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"], // 需要用到的库
+    "module": "esnext", // 要编译代码的标准
+    "target": "ES2015", // 输出代码的标准
+    "allowJs": true, // 允许编译器编译JS
+    "sourceMap": true, // 生成目标文件的sourceMap文件
+    "allowSyntheticDefaultImports": true, // 允许没有默认导出的模块
+    "esModuleInterop": true, // 允许export=导出，由import from 导入
+    "moduleResolution": "node", // 指定模块的解析方式
+    "forceConsistentCasingInFileNames": true, // 不允许不同变量来代表同一文件
+    "noImplicitReturns": false, // 函数所有路径都必须有显示 return
+    "suppressImplicitAnyIndexErrors": true, // 不提示对象索引隐式 any 的错误
+    "noUnusedLocals": true, // 未使用的本地变量将报错（2.0 以上）
+    "experimentalDecorators": false, // 允许注解语法
+    "paths": {
+      "@/*": ["./src/*"] // 别名，方便路径提示
+    }
+  },
+  "include": ["./src"], // 包含
+  "exclude": ["node_modules", "dist", "static"] // 不包含
+}
