@@ -14,7 +14,7 @@
     "dev": "npm run serve"
   },
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "dayjs": "^1.9.6",
     "font-awesome": "^4.7.0",
