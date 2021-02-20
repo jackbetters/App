@@ -5,7 +5,7 @@ import barrage from '@/assets/img/barrage.png';
 import bills from '@/assets/img/bills.png';
 export default [
   {
-    name: '账·预算',
+    name: 'B·Budget',
     logoImg: budget,
     url: 'https://apps.apple.com/cn/app/记账-预算/id1459033277',
     category: '财务',
@@ -16,7 +16,7 @@ export default [
       '账·预算是一款记账类应用。通过记录日常的花费，使自己对个人的财务状况有一个清晰的了解，帮助用户更合理的支配和管理自己的财务。',
   },
   {
-    name: '提醒助手',
+    name: 'Reminder Wiz',
     logoImg: reminder,
     url: 'https://apps.apple.com/cn/app/提醒助手-今日任务列表/id1450711480',
     category: '生活',
@@ -59,3 +59,4 @@ export default [
     introduction: '帐单清单-一款记录日常消费的软件。 你可以添加各类账户，为每个账户下可添加收支及转账记录，软件自动计算日常消费金额；软件亦可通过日历或收付款人信息查看收支情况，方便用户从多维度了解自己的收支情况；用户也可以通过图表分析您的日常开支。更多实用功能，欢迎下载体验。',
   }
 ];
+//English
