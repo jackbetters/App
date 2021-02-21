@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <div class="page-header">应用列表</div>
+    <div class="page-header">App List</div>
     <div class="page-content">
       <div v-for="item in list" :key="item.name" class="page-card">
         <div class="sf-info">
@@ -9,22 +9,22 @@
           </div>
           <div class="sf-info-box">
             <div class="sf-info-item sf-name">{{ item.name }}</div>
-            <div class="sf-info-item">类別：{{ item.category }}</div>
-            <div class="sf-info-item">兼容性：{{ item.compatibility }}</div>
-            <div class="sf-info-item">语言：{{ item.language }}</div>
-            <div class="sf-info-item">价格：{{ item.price }}</div>
+            <div class="sf-info-item">Category：{{ item.category }}</div>
+            <div class="sf-info-item">Compatibility：{{ item.compatibility }}</div>
+            <div class="sf-info-item">Language：{{ item.language }}</div>
+            <div class="sf-info-item">Price：{{ item.price }}</div>
           </div>
           <div class="sf-down">
-            <a class="a-download" :href="item.url" target="_blank">下载</a>
+            <a class="a-download" :href="item.url" target="_blank">Download</a>
           </div>
         </div>
         <van-collapse v-model="item.collapse" accordion>
-          <van-collapse-item title="简介" :name="1">{{ item.introduction }}</van-collapse-item>
+          <van-collapse-item title="Introduction" :name="1">{{ item.introduction }}</van-collapse-item>
         </van-collapse>
       </div>
       <div class="info-foot">
         <div class="ft-title">
-          联系我们
+          Contact us
         </div>
         <div class="ft-cont">
           <p>
@@ -36,7 +36,7 @@
             jackbettersli@gmail.com
           </p>
           <p>
-            <router-link to="/policy" class="a-link">隐私政策</router-link>
+            <router-link to="/policy" class="a-link">Privacy Policy</router-link>
           </p>
         </div>
       </div>
@@ -91,7 +91,7 @@
       right: 5px;
       .a-download {
         border-radius: 12px;
-        width: 60px;
+        width: 80px;
         height: 24px;
         line-height: 24px;
         background: #00b294;
