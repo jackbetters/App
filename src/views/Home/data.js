@@ -20,7 +20,7 @@ export default [
   {
     name: 'Love Article',
     logoImg: lovearticle,
-    url: 'https://apps.apple.com/us/app/note-reminder-sticky-note/id1441283586',
+    url: 'https://apps.apple.com/cn/app/love-article/id1524562223',
     category: 'Life/tools',
     compatibility: 'iOS11 and later',
     language: 'Chinese, English',
